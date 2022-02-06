@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="BookStore.css">
+</head>
+<body>
+    <div class= "heading" >
+        <h1>Add Book</h1>
+    </div>
+    <div class="container">
+        <div class="input">
+            <label for="book-title">Book Title</label>
+            <input type="text" id="book-title">
+        </div>
+        <div class="input">
+            <label for="author">Author</label>
+            <input type="text" id="author">
+        </div>
+        <div class="input">
+            <label for="isbn">ISBN</label>
+            <input type="text" id="isbn">
+        </div>
+        <input type="submit" value="Submit" id="submit">
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <th>title</th>
+                <th>author</th>
+                <th>ISBN</th>
+            </thead>
+            
+            <tbody class= "table">
+            </tbody>
+        </table>
+    </div>
+    <script src = "BookStore.js"></script>
+</body>
+</html>
